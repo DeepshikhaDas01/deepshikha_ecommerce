@@ -1,0 +1,30 @@
+.product-main-div {
+  @apply py-5 px-7;
+}
+
+.product-heading {
+  @apply text-lg font-bold;
+}
+
+.product-card-container {
+  @apply grid grid-cols-1  sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 gap-1;
+}
+
+.carticon {
+  position: fixed;
+  z-index: 80;
+  right: 10px;
+  top: 10px;
+}
+.data-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 268px;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 268px;
+}

@@ -1,0 +1,44 @@
+.modalWindow {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px;
+}
+
+.background {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(201, 189, 223, 0.04);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title img {
+  width: 2rem;
+}
+
+.okayButton {
+  margin-top: 5px;
+  background-color: seagreen;
+  padding: 5px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}

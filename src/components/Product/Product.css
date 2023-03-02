@@ -1,0 +1,32 @@
+.card-container-div{
+    @apply shadow-xl w-[12rem]  my-1 mx-2 bg-gray-400 rounded-md pb-4 text-orange-900 ;
+      
+}
+
+.card-img{
+    @apply w-full h-[200px];
+}
+
+.card-detail-div{
+    @apply w-full h-[10%] p-1;
+}
+
+.card-para{
+    @apply py-1 font-bold ;
+}
+
+.card-btn-cart{
+    @apply py-1 font-bold w-[90%] rounded text-white ;
+}
+
+.card-details{
+    @apply shadow-xl w-[12rem] my-1 mx-2 bg-gray-400 rounded-md pb-4 text-orange-900 relative;
+}
+
+
+.card-btn-cart{
+    padding: 5px;
+    border-radius: 90px;
+    background-color: rgb(64, 4, 120);
+    direction: center;
+}
